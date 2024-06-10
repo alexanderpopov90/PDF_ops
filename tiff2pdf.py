@@ -3,7 +3,7 @@ import os
 import re
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
-import tempfile
+import tempfile 
 
 class TiffToPdfConverter:
     def __init__(self, directory:str, outputPath:str='_out'):
